@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9cf0f2ee"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/region_name"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/btnRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/send_button"
+        android:text="@string/region_btn"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/tovar_name"
+        android:textColor="@color/colorText" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoComplete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:textColor="@color/colorText">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="25dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/search_button"
+        android:text="@string/search_btn"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/btnPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="30dp"
+        android:textAllCaps="false"
+        android:background="@drawable/next_button"
+        android:gravity="left|center_vertical"
+        android:text="@string/percon_btn"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/btnGippokrat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="30dp"
+        android:textAllCaps="false"
+        android:background="@drawable/next_button"
+        android:gravity="left|center_vertical"
+        android:text="@string/gippokrat_btn"
+        android:textColor="@color/colorText" />
+</LinearLayout>

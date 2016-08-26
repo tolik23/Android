@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gippokrat.by</string>
+    <string name="region_name">Регион</string>
+    <string name="region_btn">Минск</string>
+    <string name="tovar_name">Введите название товара или его часть.</string>
+    <string name="percon_btn">Моя аптека</string>
+    <string name="gippokrat_btn">gippokrat.by</string>
+    <string name="search_btn">Найти</string>
+</resources>
